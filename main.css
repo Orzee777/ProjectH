@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	font-family: Calibri;
+}
+
+header {
+	background: #999;
+	color: white;
+	padding: 15px 15px 0 15px;
+}
+
+header h1 {
+	margin: 0;
+	display: inline;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0 0 0 15px;
+	display: inline;
+}
+
+nav ul li {
+	background: #333;
+	color: white;
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px 20px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: yellow;
+}
+
+h1:hover {
+	color: yellow;
+	cursor: default;
+}
+
+.block {
+	font-family: Calibri;
+	color: black;
+}
+
+.brick {
+	margin: 10px 15px;
+	padding: 5px;
+	text-align: justify;
+}
+
+input {
+	margin: 0px;
+	padding: 5px;
+}
+
+footer {
+	text-align: center;
+	font-size: 10px;
+	opacity: 0.5;
+}
+
+li input {
+    display: none;
+	margin: 10px 0px;
+}
+
+li.edit span {
+    display: none;
+	margin: 10px 0px;
+}
+
+li.edit input {
+    display: initial;'
+	margin: 10px 0px;
+}
+
+div {
+	background: powderblue;
+	font-family: Times New Roman;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	color: red;
+	cursor: pointer;
+	margin: 50px;
+}
+
+div.button {
+	width: 100px;
+	height: 50px;
+}
+
+#cancel {
+	color: purple;
+	background: pink;
+}
