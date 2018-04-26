@@ -29,6 +29,11 @@ function itemKeypress(event) {
   }
 }
 
-function submit() {
-	alert("Data Submitted")
+function submit(id) {
+	if (id === "cancel") {
+		alert("Cancelled");
+	}
+	else {
+		alert("Data Submitted");
+	}
 }
