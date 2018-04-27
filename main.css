@@ -79,8 +79,9 @@ li.edit span {
 }
 
 li.edit input {
-    display: initial;'
+    display: initial;
 	margin: 10px 0px;
+	height: 10px;
 }
 
 div {
@@ -103,4 +104,14 @@ div.button {
 #cancel {
 	color: purple;
 	background: pink;
+}
+
+#maybe {
+	color: grey;
+	background: orange;
+}
+
+p {
+	padding: 15px;
+	line-height: 26pt;
 }

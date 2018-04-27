@@ -1,5 +1,4 @@
 // Javascript Event File
-// This is just to see if it commits correctly
 
 var checklist = document.getElementById("names");
 
@@ -34,7 +33,13 @@ function submit(id) {
 	if (id === "cancel") {
 		alert("Cancelled");
 	}
-	else {
+	else if (id === "submit") {
 		alert("Data Submitted");
+	}
+	else if (id === "maybe") {
+		alert("Call me?");
+	}
+	else {
+		alert("Link broken :(");
 	}
 }
