@@ -1,4 +1,5 @@
 // Javascript Event File
+// This is just to see if it commits correctly
 
 var checklist = document.getElementById("names");
 
