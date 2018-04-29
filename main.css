@@ -111,6 +111,19 @@ div.button {
 	background: orange;
 }
 
+#close {
+	color: red;
+	background: none;
+	font-size: 30px;
+	padding: 0;
+	margin: 0;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	width: 55px;
+	height: 55px;
+}
+
 p {
 	padding: 15px;
 	line-height: 26pt;
