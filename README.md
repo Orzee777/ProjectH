@@ -11,3 +11,4 @@ Current plans include:
 - settings / menu
 - log box
 - save file
+- form file
