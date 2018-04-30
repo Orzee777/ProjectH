@@ -47,22 +47,43 @@ function submit(id) {
 		alert("Link broken :(");
 	}
 }
-
+/*
 // Name and Email validation Function.
 function validation(){
 var name = document.getElementById("name").value;
 var email = document.getElementById("email").value;
 //var emailReg = /^([w-.]+@([w-]+.)+[w-]{2,4})?$/;
 
-if( name ==='' || email ===''){
+if(name ==='' || email ===''){
 	alert("Please fill all fields...!!!!!!");
 	return false;}
 /*else if(!(email).match(emailReg)){
 	alert("Invalid Email...!!!!!!");
-	return false;} */
+	return false;} 
 else{
 	return true;
 	}
+}
+*/
+function validation() {
+	// Create a new object inputElement
+	function inputElement(name, newValue) {
+	this.name = name;
+	this.newValue = newValue;
+}
+	
+	var name = new inputElement("name", document.getElementById("name").value);
+	var email = new inputElement("email", document.getElementById("email").value);
+	
+	var formlist = [name, email];
+	
+	for (i = 0; i < formlist.length; i++) {
+		if (!formlist[i].newValue) {
+			alert("Please enter your " + formlist[i].name);
+			return false;
+		}
+	}
+	return true;
 }
 
 function getForm() {
@@ -72,8 +93,5 @@ function getForm() {
 		var x = document.getElementsByName("form_name");
 		x[0].submit();
 		alert("Name: " + name + "\nEmail: " + email + "\nForm Class: " + document.getElementById("form_id").getAttribute("class") + "\n\nForm Submitted Successfully......");
-	}
-	else {
-		alert("Improper Inputs!");
 	}
 }
