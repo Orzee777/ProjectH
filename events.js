@@ -93,5 +93,19 @@ function getForm() {
 		var x = document.getElementsByName("form_name");
 		x[0].submit();
 		alert("Name: " + name + "\nEmail: " + email + "\nForm Class: " + document.getElementById("form_id").getAttribute("class") + "\n\nForm Submitted Successfully......");
+		replaceText("NameInput", name);
+		addText("EmailInput", getText("EmailInput"), email);
 	}
+}
+
+function getText(id) {
+	return document.getElementById(id).innerHTML;
+}
+
+function replaceText(id, value) {
+	document.getElementById(id).innerHTML = value;
+}
+
+function addText(id, old, value) {
+	document.getElementById(id).innerHTML = old + "<br>" + value;
 }
