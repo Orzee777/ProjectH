@@ -12,3 +12,14 @@ Current plans include:
 - log box
 - save file
 - form file
+- update notes
+- create a base js file
+- use specific js files for specific pages
+
+Current Issues:
+events.js 
+	- querySelectAll() error for the list / tabs
+	- the following functions don't work and need tested
+		- getText
+		- replaceText
+		- addText
