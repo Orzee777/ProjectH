@@ -26,13 +26,16 @@
 			<input type="text" name="name" id="name" placeholder="Name" />
 			<label>Email:</label>
 			<input type="text" name="email" id="email" placeholder="Valid Email" />
+			<label>Password:</label>
+			<input type="Password" name="password" id="password" placeholder="Password" />
 			<input type="button" onclick="getForm();" value="Submit"/>
 		</form>
+	</div>
+
 		<p>We have the following information on you:</p>
 		<p id="NameInput">Unknown</p>
 		<p id="EmailInput">Unknown</p>
-		<p id="EmailValidity">Unknown</p>
-	</div>
+		<p id="Password">Unknown</p>
 	
 	
 	<div class="button" id="submit" onclick="submit(this.id);">Okay</div>
@@ -45,5 +48,6 @@
 	<footer>(C) 2018 KMF</footer>
 	
 	<script src="events.js"></script>
+	<script src="scripts/forms.js"></script>
 </body>
 </html>
