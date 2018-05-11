@@ -17,10 +17,12 @@ Current plans include:
 - use specific js files for specific pages
 
 Current Issues:
- events.js 
+
+events.js 
 - querySelectAll() error for the list / tabs
  forms.js
-	the following functions don't work and need tested
+
+the following functions don't work and need tested
 - getText
 - replaceText
 - addText
