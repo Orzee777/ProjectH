@@ -19,6 +19,7 @@ Current plans include:
 Current Issues:
 events.js 
 	- querySelectAll() error for the list / tabs
+forms.js
 	- the following functions don't work and need tested
 		- getText
 		- replaceText
