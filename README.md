@@ -3,8 +3,6 @@ A test project to better learn how to code and use Git.
 
 This is a precursor to KMF's new huge update.
 
-I hope it works!
-
 ## Current plans include:
 - working with tooltips
 - resizing text/input boxes
@@ -18,11 +16,10 @@ I hope it works!
 
 ## Current Issues:
 
-### events.js 
-- `querySelectAll()` error for the list / tabs
- forms.js
+There are no current issues known at this time.
 
-### the following functions don't work and need tested
-- `getText`
-- `replaceText`
-- `addText`
+Change `itemKeypress()` to make it a higher order procedure
+- no changes have occurred for this yet
+
+I am unsure whether I should make the Copyright symbol © or (C)
+(C) works in all browsers while © does not work in Edge

@@ -1,16 +1,17 @@
 // Javascript Event File
 
+// if the file has the container "names"
+// currently only for 'edit.html'
+if (document.getElementById("names")) {
 var checklist = document.getElementById("names");
-
-//var items = checklist.querySelectorAll("li");
-//var inputs = checklist.querySelectorAll("input");
-
-var items = [];
+var items = checklist.querySelectorAll("li");
+var inputs = checklist.querySelectorAll("input");
 
 for (var i = 0; i < items.length; i++) {
   items[i].addEventListener("click", editItem);
   inputs[i].addEventListener("blur", updateItem);
   inputs[i].addEventListener("keypress", itemKeypress);
+}
 }
 
 function editItem() {

@@ -12,6 +12,7 @@ function updateItem() {
   this.parentNode.className = "";
 }
 
+// add event listener to the last field for submission
 function itemKeypress(event) {
   if (event.which === 13) {
     updateItem.call(this);
@@ -70,7 +71,7 @@ function getForm() {
 	document.getElementById("EmailInput").innerHTML = email;
 	document.getElementById("Password").innerHTML = password;
 }
-/*
+
 function getText(id) {
 	console.log("getText ran");
 	console.log(document.getElementById(id).innerHTML);
@@ -82,8 +83,15 @@ function replaceText(id, value) {
 	document.getElementById(id).innerHTML = value;
 }
 
-function addText(id, old, value) {
+function addText(id, value) {
 	console.log("addText ran");
+	var old = document.getElementById(id).innerHTML;
 	document.getElementById(id).innerHTML = old + "\n" + value;
 }
-*/
+
+///
+/// working code
+///
+
+// the last input form 'password' gets an event listener on 'enter'
+document.getElementById("password").addEventListener("keypress", itemKeypress);
