@@ -13,13 +13,14 @@ This is a precursor to KMF's new huge update.
 - update notes
 - create a base js file
 - use specific js files for specific pages
+- create favicon
 
 ## Current Issues:
 
-There are no current issues known at this time.
+*There are no current issues known at this time.*
 
 Change `itemKeypress()` to make it a higher order procedure
 - no changes have occurred for this yet
 
-I am unsure whether I should make the Copyright symbol © or (C)
+I am unsure whether I should make the Copyright symbol © or (C).  
 (C) works in all browsers while © does not work in Edge
