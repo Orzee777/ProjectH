@@ -17,7 +17,7 @@ This is a precursor to KMF's new huge update.
 
 ## Current Issues:
 
-*There are no current issues known at this time.*
+_There are no current issues known at this time._
 
 Change `itemKeypress()` to make it a higher order procedure
 - no changes have occurred for this yet
