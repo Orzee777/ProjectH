@@ -14,12 +14,11 @@ This is a precursor to KMF's new huge update.
 - create a base js file
 - use specific js files for specific pages
 - create favicon
+- encrypt data someway
 
 ## Current Issues:
 
-**There are no current issues known at this time.**
-__**There are no current issues known at this time.**__
-_**There are no current issues known at this time.**_
+*There are no current issues known at this time.*
 
 Change `itemKeypress()` to make it a higher order procedure
 - no changes have occurred for this yet
