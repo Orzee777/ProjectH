@@ -14,7 +14,6 @@ This is a precursor to KMF's new huge update.
 - create a base js file
 - use specific js files for specific pages
 - create favicon
-- encrypt data someway
 
 ## Current Issues:
 
@@ -25,3 +24,10 @@ Change `itemKeypress()` to make it a higher order procedure
 
 I am unsure whether I should make the Copyright symbol © or (C).  
 (C) works in all browsers while © does not work in Edge
+
+## Working Features:
+- encryption `encrypt.js`
+
+## Finished Features:
+
+*There are no game-ready features ready for release*
