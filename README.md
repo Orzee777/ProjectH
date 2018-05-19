@@ -30,4 +30,4 @@ I am unsure whether I should make the Copyright symbol © or (C).
 
 ## Finished Features:
 
-*There are no game-ready features ready for release*
+*There are no game-ready features ready for release.*
