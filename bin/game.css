@@ -1,0 +1,49 @@
+#log {
+	position: absolute;
+	left: 5%;
+	right: 52.5%;
+	top: 10%;
+	bottom: 10%;
+	background: orange;
+	color: red;
+	padding: 2%;
+}
+
+#gameContainer {
+	position: absolute;
+	left: 52.5%;
+	right: 5%;
+	top: 10%;
+	bottom: 10%;
+	background: yellow;
+	color: purple;
+	padding: 2%;
+	text-align: center;
+}
+
+#subtext {
+	font-size: 14px;
+}
+
+#mainMenuInput {
+	width: 50%;
+}
+
+#gameText {
+	text-align: left;
+	padding: 0% 5%;
+}
+
+footer {
+	text-align: center;
+	font-size: 10px;
+	opacity: 0.5;
+	position: fixed;
+	left: 50%;
+	bottom: 10px;
+	background: yellow;
+}
+
+#backButton {
+	
+}
