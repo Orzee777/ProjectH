@@ -14,11 +14,10 @@ This is a precursor to KMF's new huge update.
 - create a base js file
 - use specific js files for specific pages
 - create favicon
-- make all pages the correct DOCTYPE
 
 ## Current Issues:
 
-*There are no current issues known at this time.*
+- make log box scrollable
 
 Change `itemKeypress()` to make it a higher order procedure
 - no changes have occurred for this yet
