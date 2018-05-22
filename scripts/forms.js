@@ -73,18 +73,15 @@ function getForm() {
 }
 
 function getText(id) {
-	console.log("getText ran");
 	console.log(document.getElementById(id).innerHTML);
 	return document.getElementById(id).innerHTML;
 }
 
 function replaceText(id, value) {
-	console.log("replaceText ran");
 	document.getElementById(id).innerHTML = value;
 }
 
 function addText(id, value) {
-	console.log("addText ran");
 	var old = document.getElementById(id).innerHTML;
 	document.getElementById(id).innerHTML = old + "\n" + value;
 }
