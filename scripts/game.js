@@ -19,8 +19,7 @@ function editItem() {
   input.setSelectionRange(0, input.value.length);
 }
 
-function updateItem() {
-  this.previousElementSibling.innerHTML = this.value;
+function updateItem() {  this.previousElementSibling.innerHTML = this.value;
   this.parentNode.className = "";
 }
 
@@ -33,10 +32,24 @@ function itemKeypress(event) {
 
 function getMainMenu() {
 	var mfm = document.getElementById("mainMenuInput").value;
-	
 	replaceText("gameText", "<br><br>" + mfm);
 	addText("log", "<br>" + mfm);
-	
+}
+
+// this function is for testing purposes.  It serves no real purpose.
+function elId(id) {
+	try {
+		var temp = document.getElementById(id).value;
+	}
+	catch (e) {
+		try {
+			var temp = document.getElementById(id).innerHTML;
+		}
+		catch (e) {
+		var temp = document.getElementById(id);
+	}
+	}
+	console.log(temp);
 }
 
 function getText(id) {
