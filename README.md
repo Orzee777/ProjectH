@@ -14,6 +14,7 @@ This is a precursor to KMF's new huge update.
 - create a base js file
 - use specific js files for specific pages
 - create favicon
+- clear button
 
 ## Current Issues:
 
