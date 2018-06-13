@@ -14,7 +14,7 @@
 	</div>
 
 	<div id="gameContainer">
-		<h2 id="mainMenu">Main Menu</h2>
+		<h2 id="titleText">Main Menu</h2>
 		<p id="subtext">This is some subtext for the Main Menu</p>
 		<input id="mainMenuInput" type="text">
 		<button type="button" onclick="getMainMenu();">Submit</button>
@@ -22,12 +22,18 @@
 		<br>
 		<br>
 		<div id="gameText">
-			<p>Title Line That Explains Things</p>
-			<p>Statement number 1.</p>
-			<p>Statement number 2.</p>
-			<p>Statement number 3.</p>
+			<p id="gameLine0">Title Line That Explains Things</p>
+			<p id="gameLine1">Statement number 1.</p>
+			<p id="gameLine2">Statement number 2.</p>
+			<p id="gameLine3">Statement number 3.</p>
 		</div>
 	</div>
+
+	<button type="button" onclick="elId('gameLine1');">Click here</button>
+	<button type="button" onclick="elId('subtext');">Click me!</button>
+
+	<button type="button" id="exitButton" onclick="alert('exit');">Exit</button>
+
 
 	<footer>(C) 2018 KMF</footer>
 	
