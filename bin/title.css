@@ -2,6 +2,9 @@ body {
 	background: black;
 	color: white;
 	overflow: hidden;
+	vertical-align: middle;
+	cursor: default;
+	text-align: center;
 }
 
 a {
@@ -12,11 +15,6 @@ a {
 a:hover {
 	color: #ca59ff;
 }	
-
-container {
-	text-align: center;
-	cursor: default;
-}
 
 div.hoverable {
 	-webkit-transition: 2s ease-in-out;
@@ -40,7 +38,6 @@ div.hoverable:hover {
 }
 
 #title {
-	top: 40%;
 	vertical-align: middle;
 	font-size: 50px;
 }
@@ -56,7 +53,6 @@ div.hoverable:hover {
 
 h5 {
 	position: fixed;
-	text-align: center;
 	bottom: 2%;
 	left: 0;
 	right: 0;
@@ -66,4 +62,10 @@ h5 {
 	position: fixed;
 	top: 2%;
 	right: 1%;
+}
+
+#container {
+	vertical-align: middle;
+	height: 100%;
+	width: 100%;
 }
