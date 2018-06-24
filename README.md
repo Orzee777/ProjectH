@@ -25,7 +25,7 @@ This is a precursor to KMF's new huge update.
 Change `itemKeypress()` to make it a higher order procedure
 - no changes have occurred for this yet
 
-##Unsure Features:
+## Unsure Features:
 - Copyright symbol © or (C).  
 (C) works in all browsers while © does not work in Edge
 - hide page suffix (\*.html)
