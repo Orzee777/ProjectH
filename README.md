@@ -15,6 +15,8 @@ This is a precursor to KMF's new huge update.
 - use specific js files for specific pages
 - create favicon
 - clear button
+- login box
+- remember me checkbox
 
 ## Current Issues:
 
@@ -23,8 +25,10 @@ This is a precursor to KMF's new huge update.
 Change `itemKeypress()` to make it a higher order procedure
 - no changes have occurred for this yet
 
-I am unsure whether I should make the Copyright symbol © or (C).  
+##Unsure Features:
+- Copyright symbol © or (C).  
 (C) works in all browsers while © does not work in Edge
+- hide page suffix (\*.html)
 
 ## Working Features:
 - encryption `encrypt.js`
