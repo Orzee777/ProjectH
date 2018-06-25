@@ -17,6 +17,7 @@ This is a precursor to KMF's new huge update.
 - clear button
 - login box
 - remember me checkbox
+- contenteditable value
 
 ## Current Issues:
 
