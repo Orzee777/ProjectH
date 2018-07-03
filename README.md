@@ -18,6 +18,7 @@ This is a precursor to KMF's new huge update.
 - login box
 - remember me checkbox
 - contenteditable value
+- use Sass for CSS
 
 ## Current Issues:
 
