@@ -50,3 +50,19 @@ function submit(id) {
 		alert("Link broken :(");
 	}
 }
+
+// hides the element if visible
+// shows the element in BLOCK if hidden
+var toggleView = function (elementId, buttonId) {
+  element = document.getElementById(elementId);
+  toggle = document.getElementById(buttonId);
+  
+  if (element.style.display === "none") {
+    element.style.display = "block";
+    toggle.innerHTML = "Hide";
+  }
+  else {
+    element.style.display = "none";
+    toggle.innerHTML = "Show";
+  }
+}
