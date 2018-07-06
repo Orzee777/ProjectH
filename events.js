@@ -66,3 +66,18 @@ var toggleView = function (elementId, buttonId) {
     toggle.innerHTML = "Show";
   }
 }
+
+// adds an enterPress event listener to all elements in class elementClass.
+// returns 'true' so it can be used to trigger a function *will adjust later*
+var onEnterPress = function (elementClass) {
+  for (var i = 0; i < elementClass.length; i++) 
+  document.getElementsByClassName(elementClass)[i].addEventListener('keypress', function (e) {
+    var key = e.which || e.keyCode;
+    if (key === 13) {
+      console.log("YES!")
+      return true;
+    }
+  });
+}
+
+onEnterPress("enterPress");
