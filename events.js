@@ -74,7 +74,7 @@ var onEnterPress = function (elementClass) {
   document.getElementsByClassName(elementClass)[i].addEventListener('keypress', function (e) {
     var key = e.which || e.keyCode;
     if (key === 13) {
-      console.log("YES!")
+      console.log(this.value)
       return true;
     }
   });
