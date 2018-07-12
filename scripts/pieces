@@ -1,0 +1,14 @@
+// Object 'User'
+
+function User(username, password, screenName, favoriteList, gamesPlayed, logins) {
+	this.username = username;				//login name
+	this.password = password;				//login password
+	this.screenName = screenName;			//display name
+	this.favoriteList = favoriteList;	//most played list
+	this.gamesPlayed = gamesPlayed;		//number of games played
+	this.logins = logins++;					//number of times logged in (sessions)
+}
+
+// var currentUser is a member of the Object 'User'
+
+var guest = User("Guest","", "You","None", 0, 0);
