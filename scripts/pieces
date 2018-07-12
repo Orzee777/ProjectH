@@ -12,3 +12,15 @@ function User(username, password, screenName, favoriteList, gamesPlayed, logins)
 // var currentUser is a member of the Object 'User'
 
 var guest = User("Guest","", "You","None", 0, 0);
+
+var logout = function (currentUser) {
+	//
+	// add a feature that logs the user out
+	//
+	
+	currentUser.gamesPlayed *= rounds;
+	
+	document.getElementById("1").innerHTML = currentUser.username + " has logged out";
+	document.getElementById("2").innerHTML = currentUser.gamesPlayed;
+}
+	window.onunload = logout(currentUser);
