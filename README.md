@@ -31,6 +31,8 @@ Change `itemKeypress()` to make it a higher order procedure
 - Copyright symbol © or (C).  
 (C) works in all browsers while © does not work in Edge
 - hide page suffix (\*.html)
+- Achievements
+- stats (only keeping track of visits and rounds)
 
 ## Working Features:
 - encryption `encrypt.js`
