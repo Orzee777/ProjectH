@@ -24,3 +24,83 @@ var logout = function (currentUser) {
 	document.getElementById("2").innerHTML = currentUser.gamesPlayed;
 }
 	window.onunload = logout(currentUser);
+
+
+////
+//// Achievement and User Features
+////
+
+// achievement naming conventions are ACHxx with xx being lowercase
+
+function Achievement (ACHname, ACHpoints, ACHdescription, ACHid) {
+	this.ACHname = ACHname;
+	this.ACHpoints = ACHpoints;
+	this.ACHdescription = ACHdescription;
+	this.ACHid = ACHid;
+	this.xp = ACHpoints * 3;
+	
+	this.print = function () {
+		return "<b>" + this.ACHname + "</b> (" + ACHpoints + " points) <br><p style = \"text-indent: 20px; padding: 0px; margin: 5px;\"><i>" + this.ACHdescription + "</p></i>";
+	}
+}
+
+var ACH001 = new Achievement ("The Creator", 25, "create a KMF account", "ACH001");
+var ACH002 = new Achievement ("Logger", 25, "logged in for the first time!", "ACH002");
+var ACH003 = new Achievement ("Player", 10, "played your first game!", "ACH003")
+
+function User(username, password, screenName, stats) {
+	this.username = username;				//login name
+	this.password = password;				//login password
+	this.screenName = screenName;			//display name
+	this.stats = stats;						//array of stats
+}
+
+function Stat (statName, statValue) {
+	this.statName = statName;
+	this.statValue = statValue;
+	
+	this.print = function () {
+		return this.statName + " " + this.statValue;
+	}
+}
+
+function createNewUser (username, password) {
+	screenName = "placeholder screenName"; //prompt("Please enter a screen name");
+	return new User (username, password, screenName, []);
+}
+
+var currentUser = createNewUser("Orzee", "password");
+
+var xp = new Stat ("Experience", 0);
+var logins = new Stat ("Logins", 10);
+var steps = new Stat ("Steps", 250);
+
+currentUser.stats = [xp, logins, steps];
+currentUser.stats[0].statValue += 20;
+
+document.getElementById("1").innerHTML = currentUser.stats[0].print();
+document.getElementById("2").innerHTML = currentUser.stats[1].print();
+document.getElementById("3").innerHTML = currentUser.stats[2].print();
+
+var level = currentUser.stats[0].statValue;
+
+// level 1 = 100xp
+// level 2 = 150xp
+// level 3 = 200xp
+// level 4 = 250xp
+// level 5 = 300xp
+// level 6 = 350xp
+// level 7 = 400xp
+// level 8 = 450xp
+// level 9 = 500xp
+// level 10 = 600xp
+// level 11 = 700xp
+// level 12 = 800xp
+// level 13 = 900xp
+// level 14 = 1000xp
+// level 15 = 1200xp
+// level 16 = 1400xp
+// level 17 = 1600xp
+// level 18 = 1800xp
+// level 19 = 1900xp
+// level 20 = 2000xp
