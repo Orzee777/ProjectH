@@ -104,3 +104,10 @@ var level = currentUser.stats[0].statValue;
 // level 18 = 1800xp
 // level 19 = 1900xp
 // level 20 = 2000xp
+
+
+/*
+Personal information contains tremendous value that can be used for fraud, identity theft, and other crimes.  With passwords becoming less common, many programs require user verification through identity.  This can be biometric, security questions, personal devices, or even by selecting photos.  While most people believe hackers are the biggest threat to their data, very few people do not realize the data that they give away themselves.
+Hiding behind Terms of Conditions, Privacy Policies, and legal loopholes, companies can access an abundance of data very quickly.  Something as simple as reading a news article can track a plethora of information and make assumptions about the reader.  By accessing almost any website, users are giving up data (SOMETHING).  
+Google Analytics alone can track the incoming link source, browser name, version, screen name, operating system, PC configuration, username, site duration, scroll speed, links clicked, cursor movement, clicks, inputs, and even internet connection information.  Scared yet?  
+*/
